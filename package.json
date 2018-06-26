@@ -4,9 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx parcel src/index.html --open --no-hmr --no-cache",
+    "build": "rm -rf build && npx parcel build src/index.html -d ./build --public-url ."
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.9.3"
+  },
+  "browserslist": [ "last 2 Chrome versions" ]
 }
