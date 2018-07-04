@@ -1,4 +1,4 @@
-# Fn
+# Fn [![Build Status](https://travis-ci.org/renie/fn.svg?branch=master)](https://travis-ci.org/renie/fn)
 
 ## Commands
 
@@ -19,4 +19,10 @@ npm start
 
 ```
 npm run build
+```
+
+### Tests
+
+```
+npm test
 ```

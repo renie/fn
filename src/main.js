@@ -1,3 +1,3 @@
-import { log } from './log.js';
+import { sum } from './math.js';
 
-log('It Works')
+console.log(sum(2)(3))
